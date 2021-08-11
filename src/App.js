@@ -3,7 +3,7 @@ import { FaShare, FaTwitter, FaPinterest } from "react-icons/fa";
 import { AiFillFacebook } from "react-icons/ai";
 
 function App() {
-  const [isHidden, setIsHidden] = useState(false);
+  const [isHidden, setIsHidden] = useState(true);
   return (
     <div className="min-h-screen w-full flex justify-center bg-light-grayish-blue font-manrope ">
       <section className=" w-96 h-auto rounded-xl bg-white shadow-2xl my-auto flex flex-col lg:flex lg:flex-row lg:w-4/5">
