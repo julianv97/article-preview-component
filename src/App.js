@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaShare, FaTwitter, FaPinterest } from "react-icons/fa";
 import { AiFillFacebook } from "react-icons/ai";
-import { IoMdArrowDropdown } from "react-icons/io";
+
 function App() {
   const [isHidden, setIsHidden] = useState(false);
   return (
